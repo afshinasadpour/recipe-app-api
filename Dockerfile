@@ -1,5 +1,5 @@
 From python:3.13.0a4-alpine3.19
-LABEL maintainer="londonappdeveloper.com"
+LABEL maintainer="afshinasadpour"
 
 ENV  PYTYHONUNBUFFERED=1
 COPY ./requirements.txt /tmp/requirements.txt
