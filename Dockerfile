@@ -1,7 +1,7 @@
-From python:3.13.0a4-alpine3.19
+FROM python:3.9-alpine3.13
 LABEL maintainer="afshinasadpour"
 
-ENV  PYTYHONUNBUFFERED=1
+ENV  PYTYHONUNBUFFERED 1
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
